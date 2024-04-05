@@ -15,9 +15,10 @@
       <div class="row gy-4">
         <div class="col-xl-3 col-lg-4 col-md-6" v-for="product in filteredProducts" :key="product.id">
           <div class="card">
-            <img class="card-img-top w-100 d-block" :src="product.image" width="259" height="238" alt="Product Image">
-            <div class="card-body p-4" style="height: 226.2px;">
-              <p class="text-primary card-text mb-0">{{ product.category }}</p>
+
+            <img class="card-img-top w-100 d-block" src="/src/assets/img/PXL_20240108_190010108.jpg" width="259" height="238" alt="Product Image">
+            <div class="card-body p-4">
+              <p class="text-primary card-text mb-1" style="font-size: smaller;">{{ product.category }}</p>
               <h5 class="card-title">{{ product.name }}</h5>
               <p class="card-text">{{ product.description }}</p>
               <h6 class="card-title">{{ product.price }}</h6>
@@ -36,14 +37,57 @@
         selectedCategory: '',
         products: [
           // Sample product data
-          { id: 1, name: 'banana', description: 'shjsjsjsjs', image: 'PXL_20240108_190010108.jpg', price: '$10', category: 'AFRICAN FABRICS' },
-          { id: 2, name: 'umuneke', description: 'shjsjsjsjs', image: 'PXL_20240108_190010108.jpg', price: '$10', category: 'BEVERAGES' },
-          { id: 3, name: 'umuneke', description: 'shjsjsjsjs', image: 'PXL_20240108_190010108.jpg', price: '$10', category: 'BEVERAGES' },
-          { id: 3, name: 'umuneke', description: 'shjsjsjsjs', image: 'PXL_20240108_190010108.jpg', price: '$10', category: 'BEVERAGES' },
-          { id: 3, name: 'umuneke', description: 'shjsjsjsjs', image: 'PXL_20240108_190010108.jpg', price: '$10', category: 'BEVERAGES' },
-          // Add more products as needed
+          { 
+            id: 1, 
+            name: 'Shimmering Sunset Satin', 
+            description: 'Sunset satin shimmers with an orange-purple gradient, perfect for elegant dresses', 
+            image: 'PXL_20240108_190010108.jpg', 
+            price: '$ 10', 
+            category: 'AFRICAN FABRICS' 
+          },
+          { 
+            id: 2, 
+            name: 'Bohemian Paisley Cotton Print', 
+            description: 'Sunset satin shimmers with an orange-purple gradient, perfect for elegant dresses', 
+            image: 'PXL_20240108_190010108.jpg', 
+            price: '$ 10', 
+            category: 'AFRICAN FABRICS' 
+          },
+          {
+            id: 3,
+            name: 'Umuneke (1 Liter)',
+            description: "Traditional Rwandan banana beer. Refreshing taste, unique fermentation. Gluten-free, good probiotics.",
+            image: 'umuneke_1l.jpg', 
+            price: '$5',
+            category: 'BEVERAGES'
+          },
+          {
+            id: 4,
+            name: 'Umuneke (500ml)',
+            description: "Traditional Rwandan banana beer. Refreshing taste, unique fermentation. Perfect individual serving.",
+            image: 'umuneke_500ml.jpg', 
+            price: '$3',
+            category: 'BEVERAGES'
+          },
+          {
+            id: 5,
+            name: 'Umuneke Spiced (750ml)',
+            description: "Umuneke with ginger & cloves. Unique flavor experience. Perfect.",
+            image: 'umuneke_spiced_750ml.jpg', 
+            price: '$6',
+            category: 'BEVERAGES'
+          },
+          {
+            id: 5,
+            name: 'Umuneke Spiced (750ml)',
+            description: "Umuneke with ginger & cloves. Unique flavor experience. Perfect.",
+            image: 'umuneke_spiced_750ml.jpg', 
+            price: '$6',
+            category: 'COOKING OIL'
+          }
+          
         ],
-        categories: ['AFRICAN FABRICS', 'BEVERAGES', 'COOKING OIL', 'gggggg']
+        categories: ['AFRICAN FABRICS', 'BEVERAGES', 'COOKING OIL']
       };
     },
     computed: {
