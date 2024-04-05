@@ -1,4 +1,4 @@
-<template>
+ <template>
     <div class="container py-4 py-xl-5">
       <div class="row" style="margin-bottom: 13px;">
         <div class="col-xl-6 offset-xl-6 text-end">
@@ -43,7 +43,7 @@
             description: 'Sunset satin shimmers with an orange-purple gradient, perfect for elegant dresses', 
             image: 'PXL_20240108_190010108.jpg', 
             price: '$ 10', 
-            category: 'AFRICAN FABRICS' 
+            category: 'GROCERIES' 
           },
           { 
             id: 2, 
@@ -51,7 +51,7 @@
             description: 'Sunset satin shimmers with an orange-purple gradient, perfect for elegant dresses', 
             image: 'PXL_20240108_190010108.jpg', 
             price: '$ 10', 
-            category: 'AFRICAN FABRICS' 
+            category: 'GROCERIES' 
           },
           {
             id: 3,
@@ -83,11 +83,11 @@
             description: "Umuneke with ginger & cloves. Unique flavor experience. Perfect.",
             image: 'umuneke_spiced_750ml.jpg', 
             price: '$6',
-            category: 'COOKING OIL'
+            category: 'ELECTONICS'
           }
           
         ],
-        categories: ['AFRICAN FABRICS', 'BEVERAGES', 'COOKING OIL']
+        categories: ['GROCERIES', 'BEVERAGES', 'ELECTONICS']
       };
     },
     computed: {
