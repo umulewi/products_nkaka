@@ -2,7 +2,7 @@
 <template>
   <div id="app">
    
-    <check2/>
+    <products/>
     
  
 
@@ -17,7 +17,7 @@
 
 ;
 
-import check2 from './components/check2.vue'
+import products from './components/products.vue'
 
 
 
@@ -25,7 +25,7 @@ import check2 from './components/check2.vue'
 export default {
   name: 'App',
   components: {
-    check2
+    products
   }
 };
 </script>
