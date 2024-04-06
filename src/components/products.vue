@@ -4,7 +4,7 @@
         <div class="col-xl-6 offset-xl-6 text-end">
           <form>
             <select v-model="selectedCategory" class="form-select d-inline-block" style="min-width: auto; max-width: 240px; margin-left: 0; margin-right: 7px;">
-              <option value="" selected>Choose Category</option>
+              <option value="" selected>All Products</option>
               <option v-for="category in categories" :key="category">{{ category }}</option>
             </select>
             <input v-model="searchQuery" class="form-control d-inline-block" type="search" placeholder="Search products" style="max-width: 257px;">
@@ -16,7 +16,7 @@
         <div class="col-xl-3 col-lg-4 col-md-6" v-for="product in filteredProducts" :key="product.id">
           <div class="card">
 
-            <img class="card-img-top w-100 d-block" src="/src/assets/img/PXL_20240108_190010108.jpg" width="259" height="238" alt="Product Image">
+            <img class="card-img-top w-100 d-block" src="/src/assets/img/86-Original-Intense-Blond-Bear-500-ML-murukali-com-1160_1200x1200.jpg" width="259" height="238" alt="Product Image">
             <div class="card-body p-4">
               <p class="text-primary card-text mb-1" style="font-size: smaller;">{{ product.category }}</p>
               <h5 class="card-title">{{ product.name }}</h5>
