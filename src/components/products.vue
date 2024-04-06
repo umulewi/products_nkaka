@@ -20,7 +20,7 @@
               <p class="text-primary card-text mb-1" style="font-size: smaller;">{{ product.category }}</p>
               <h5 class="card-title">{{ product.name }}</h5>
               <p class="card-text">{{ product.description }}</p>
-              <h6 class="card-title">RWF {{ product.price }}</h6>
+              <h6 class="card-title">$ {{ product.price }}</h6>
             </div>
           </div>
         </div>
@@ -38,52 +38,68 @@
           // Sample product data
           { 
             id: 1, 
-            name: 'Shimmering Sunset Satin', 
-            description: 'Sunset satin shimmers with an orange-purple gradient, perfect for elegant dresses', 
-            image: '/src/assets/img/PXL_20240108_190010108.jpg', 
-            price: '10', 
-            category: 'GROCERIES' 
+            name: 'Intense Blond Bear', 
+            description: 'A full-bodied red wine, likely made from Merlot grapes. Merlot is known for its smooth taste and dark fruit.', 
+            image: '/src/assets/img/86-Original-Intense-Blond-Bear-500-ML-murukali-com-1160_1200x1200.jpg', 
+            price: '3.5', 
+            category: 'BEVERAGES' 
           },
           { 
             id: 2, 
-            name: 'Bohemian Paisley Cotton Print', 
-            description: 'Sunset satin shimmers with an orange-purple gradient, perfect for elegant dresses', 
-            image: '/src/assets/img/PXL_20240108_190010108.jpg', 
-            price: '10', 
-            category: 'GROCERIES' 
+            name: 'Grand Sud Merlot', 
+            description: 'A full-bodied red wine, likely made from Merlot grapes. Merlot is known for its smooth taste and dark fruits.', 
+            image: '/src/assets/img/Grand-Sud-Merlot-1L-pc-murukali-com-7668_1200x1200.jpg', 
+            price: '32.0', 
+            category: 'BEVERAGES' 
           },
           {
             id: 3,
-            name: 'Umuneke (1 Liter)',
-            description: "Traditional Rwandan banana beer. Refreshing taste, unique fermentation. Gluten-free, good probiotics.",
-            image: '/src/assets/img/umuneke_1l.jpg', 
-            price: '5',
+            name: 'Inyange chocolate milk',
+            description: "Rich and creamy chocolate flavored milk, perfect for a delicious treat. Enjoy it chilled for a refreshing drink.",
+            image: '/src/assets/img/Inyange-chocolate-milk-1L-murukali-com-2512_1200x1200.jpg', 
+            price: '1.34',
             category: 'BEVERAGES'
           },
           {
             id: 4,
-            name: 'Umuneke (500ml)',
-            description: "Traditional Rwandan banana beer. Refreshing taste, unique fermentation. Perfect individual serving.",
-            image: '/src/assets/img/umuneke_500ml.jpg', 
-            price: '3',
+            name: 'Inyange Low Fat Milk',
+            description: "All the goodness of milk with less fat. Great for those watching their calorie intake or who prefer a lighter taste. ",
+            image: '/src/assets/img/Inyange-Low-Fat-Milk-L-murukali-com-8860_1200x1200.jpg', 
+            price: '1.89',
             category: 'BEVERAGES'
           },
           {
-            id: 5,
-            name: 'Umuneke Spiced (750ml)',
-            description: "Umuneke with ginger & cloves. Unique flavor experience. Perfect.",
-            image: '/src/assets/img/umuneke_spiced_750ml.jpg', 
-            price: '6',
-            category: 'BEVERAGES'
+            id: 4,
+            name: 'Green Pepper',
+            description: " These crisp, emerald-green vegetables are not only delicious but also packed with essential vitamins.",
+            image: '/src/assets/img/greenpepper.jpg', 
+            price: '1.2',
+            category: 'GROCERIES'
           },
           {
             id: 5,
-            name: 'Umuneke Spiced (750ml)',
-            description: "Umuneke with ginger & cloves. Unique flavor experience. Perfect.",
-            image: '/src/assets/img/umuneke_spiced_750ml.jpg', 
-            price: '6',
-            category: 'ELECTONICS'
-          }
+            name: 'Parsley',
+            description: "This vibrant green herb is a kitchen essential, adding a touch of brightness and freshness to any ",
+            image: '/src/assets/img/sereri.jpg', 
+            price: '0.32',
+            category: 'GROCERIES'
+          },
+          {
+            id: 5,
+            name: 'Eggplant',
+            description: "Beautiful, purple vegetables offering a mild, slightly sweet flavor that complements countless dishes.",
+            image: '/src/assets/img/Eggplant.jpg', 
+            price: '0.32',
+            category: 'GROCERIES'
+          },
+          {
+            id: 5,
+            name: 'Epinard',
+            description: "These tender, young spinach leaves are bursting with flavor and nutrients, making them a perfect addition to any meal.",
+            image: '/src/assets/img/Epinard-bunch-murukali-com-1726_1200x1200.jpg', 
+            price: '0.32',
+            category: 'GROCERIES'
+          },
           
         ],
         categories: ['GROCERIES', 'BEVERAGES', 'ELECTONICS']
