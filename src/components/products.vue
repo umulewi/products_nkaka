@@ -85,7 +85,7 @@
             category: 'GROCERIES'
           },
           {
-            id: 5,
+            id: 6,
             name: 'Eggplant',
             description: "Beautiful, purple vegetables offering a mild, slightly sweet flavor that complements countless dishes.",
             image: '/src/assets/img/Eggplant.jpg', 
@@ -93,16 +93,24 @@
             category: 'GROCERIES'
           },
           {
-            id: 5,
+            id: 7,
             name: 'Epinard',
             description: "These tender, young spinach leaves are bursting with flavor and nutrients, making them a perfect addition to any meal.",
             image: '/src/assets/img/Epinard-bunch-murukali-com-1726_1200x1200.jpg', 
             price: '0.32',
             category: 'GROCERIES'
           },
+          {
+            id: 8,
+            name: 'HP726 Keyboard',
+            description: "The HP726 is a mini wired keyboard designed for those looking for a space-saving option",
+            image: '/src/assets/img/HP726-multimedia-Keyboard-Windows-vista-Mac-OS-murukali-com-3746_1200x1800.jpg', 
+            price: '7.32',
+            category: 'ELECTRONICS'
+          }
           
         ],
-        categories: ['GROCERIES', 'BEVERAGES', 'ELECTONICS']
+        categories: ['GROCERIES', 'BEVERAGES', 'ELECTRONICS']
         
       };
     },
