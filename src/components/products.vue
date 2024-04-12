@@ -69,7 +69,7 @@
             category: 'BEVERAGES'
           },
           {
-            id: 4,
+            id: 5,
             name: 'Green Pepper',
             description: " These crisp, emerald-green vegetables are not only delicious but also packed with essential vitamins.",
             image: '/src/assets/img/greenpepper.jpg', 
@@ -77,7 +77,7 @@
             category: 'GROCERIES'
           },
           {
-            id: 5,
+            id: 6,
             name: 'Parsley',
             description: "This vibrant green herb is a kitchen essential, adding a touch of brightness and freshness to any ",
             image: '/src/assets/img/sereri.jpg', 
@@ -85,7 +85,7 @@
             category: 'GROCERIES'
           },
           {
-            id: 6,
+            id: 7,
             name: 'Eggplant',
             description: "Beautiful, purple vegetables offering a mild, slightly sweet flavor that complements countless dishes.",
             image: '/src/assets/img/Eggplant.jpg', 
@@ -93,7 +93,7 @@
             category: 'GROCERIES'
           },
           {
-            id: 7,
+            id: 8,
             name: 'Epinard',
             description: "These tender, young spinach leaves are bursting with flavor and nutrients, making them a perfect addition to any meal.",
             image: '/src/assets/img/Epinard-bunch-murukali-com-1726_1200x1200.jpg', 
@@ -101,7 +101,7 @@
             category: 'GROCERIES'
           },
           {
-            id: 8,
+            id: 9,
             name: 'HP726 Keyboard',
             description: "The HP726 is a mini wired keyboard designed for those looking for a space-saving option",
             image: '/src/assets/img/HP726-multimedia-Keyboard-Windows-vista-Mac-OS-murukali-com-3746_1200x1800.jpg', 
