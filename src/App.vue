@@ -1,8 +1,7 @@
 <!-- App.vue -->
 <template>
   <div id="app">
-   
-    <products/>
+   <products/>
     
  
 
